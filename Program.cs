@@ -79,16 +79,23 @@
 //  int divnum=num;
 //  if (num<10)
 // Console.WriteLine("Второй цифры нет");
-// if (num>9 && num<=100)
+// else if (num>9 && num<=100)
+//      {
+        
 // Console.WriteLine(divnum % 10);
-// else
+//      }
+// else if (num>100)
 // {
-// while (divnum>100)
-//  {
-// divnum=divnum/10;
-//  }
-// Console.WriteLine("Оно зачем то"+divnum % 10);
+//     do 
+//     {
+//         divnum=divnum/10;
+//     }
+//     while (divnum>100);
+//     Console.WriteLine(divnum % 10);
 // }
+
+
+
  
 
 
